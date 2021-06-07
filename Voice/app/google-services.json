@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "786511736951",
+    "project_id": "voice-1a47b",
+    "storage_bucket": "voice-1a47b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786511736951:android:5f6ddebb3c897551579672",
+        "android_client_info": {
+          "package_name": "com.gcitcomplaint.voice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786511736951-s619blsnuh8e9nthnqkbhluq7q33i9n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKyai2Fk7cjICXYr8CSg0eQFjvm5y0Tb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786511736951-s619blsnuh8e9nthnqkbhluq7q33i9n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

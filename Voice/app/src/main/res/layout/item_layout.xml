@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/edittext_shape">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complaint Lodged by  "
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/name_dispalay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserId:  "
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/email_dispalay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complaint Title: "
+                android:textStyle="bold"
+                android:fontFamily="@font/abril_fatface"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/title_dispalay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complaint Type: "
+                android:fontFamily="@font/abril_fatface"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/type_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description: "
+                android:fontFamily="@font/abril_fatface"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/des_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: "
+                android:textStyle="bold"
+                android:fontFamily="@font/abril_fatface"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/status_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/delete_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="280dp"
+            android:background="@drawable/btn_shape"
+            android:src="@drawable/delete"
+            android:backgroundTint= "#104EED"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
